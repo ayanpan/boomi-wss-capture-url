@@ -6,10 +6,10 @@ We receive a request in Boomi from an external application via Web Services Serv
 ## Solution:
 Use the standard Boomi Dynamic Process Property (DPP) of "inpath".
 
-Below are the steps to achieve it.
+Below are the steps to achieve this:
 
-1. Use a Set Properties Shape.
+1. Use a Set Properties Shape
 
 2. On the Left Hand Side, set DPP = DPP_Get_ResourcePath
 
-3. On the Right Hand Side, get from DPP and put DPP Name as **inpath**.
+3. On the Right Hand Side, get from DPP and put DPP Name as **inpath**
